@@ -8,6 +8,7 @@ public class Main {
         // Determinem la casa segons la resposta
         String casa;
         casa = resposta.equals("hola") ? "adios" :
+            casa
                 resposta.equals("Coneixement") ? "Ravenclaw" :
                         resposta.equals("Ambicio") ? "Harrypoter" : "quidditch";
 
