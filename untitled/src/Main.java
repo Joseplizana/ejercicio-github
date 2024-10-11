@@ -9,7 +9,7 @@ public class Main {
         String casa;
         casa = resposta.equals("hola") ? "adios" :
                 resposta.equals("Coneixement") ? "Ravenclaw" :
-                        resposta.equals("Ambicio") ? "Slytherin" : "Hufflepuff";
+                        resposta.equals("Ambicio") ? "Harrypoter" : "quidditch";
 
         // Mostrem la casa seleccionada
         System.out.println(casa);
