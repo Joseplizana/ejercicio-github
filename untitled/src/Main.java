@@ -10,6 +10,7 @@ public class Main {
         casa = resposta.equals("hola") ? "adios" :
                 resposta.equals("Coneixement") ? "Ravenclaw" :
                         resposta.equals("Ambicio") ? "Harrypoter" : "quidditch";
+        hola
 
         // Mostrem la casa seleccionada
         System.out.println(casa);
